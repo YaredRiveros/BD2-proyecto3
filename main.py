@@ -4,8 +4,6 @@ import os
 #Librerías para LSH
 from nearpy import Engine
 from nearpy.hashes import RandomBinaryProjections
-
-
 # KNN-HighD 
 
 # Solución elegida : Locality Sensitive Hashing (LSH)
@@ -47,9 +45,6 @@ def LSH(dataset_path):
 
     return engine
 
-
-import numpy as np
-
 def search(engine, image_path, N):
     # Carga la imagen y extrae el código de codificación facial
     image = face_recognition.load_image_file(image_path)
@@ -64,12 +59,9 @@ def search(engine, image_path, N):
 
         # Imprime los N vecinos más cercanos
         print("Los " + str(N) + " vecinos más cercanos a la imagen " + image_path + " son:")
-        #Necesito los N primeros
+
         for i in range(N):
             print(N_nearest_neighbors[i][1])
-
-
-
 
 def main():
     dataset_path = "./lfw-chikito"
