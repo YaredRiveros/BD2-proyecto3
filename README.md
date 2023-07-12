@@ -12,6 +12,8 @@
 ![NearPy](https://img.shields.io/badge/NearPy-1.0.0-turquoise?style=for-the-badge)
 ![Academical Project](https://img.shields.io/badge/Academical%20Project-Yes-brightgreen?style=for-the-badge)
 ![Repo Size](https://img.shields.io/badge/Repo%20Size-8.5Mb-orange?style=for-the-badge)
+![](captura_1.png)
+![](captura_2.png)
 
 ## Integrantes
 
