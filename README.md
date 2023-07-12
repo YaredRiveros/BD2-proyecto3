@@ -1,4 +1,4 @@
-# Proyecto 3 - BD2: Servicio Web de Reconocimiento Facial
+# Proyecto 3 - BD2: Interfaz de Reconocimiento Facial
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=Python)
 ![Face_Recognition](https://img.shields.io/badge/Face_Recognition-1.3.0-turquoise?style=for-the-badge)
@@ -22,7 +22,7 @@
 
 ## Introducción
 
-En este proyecto, desarrollamos un servicio web de reconocimiento facial que se basa en la búsqueda y recuperación eficiente de imágenes. Este sistema utiliza la librería Face_Recognition para la extracción de características faciales y algoritmos K-Nearest Neighbors (KNN) para manejar grandes volúmenes de datos de imágenes. Experimentamos con varias técnicas de indexación, incluyendo R-Trees y KD-Trees, y utilizamos PCA para reducir la dimensionalidad de los datos y mejorar el rendimiento del sistema. Finalmente, creamos una interfaz de usuario utilizando la biblioteca tkinter para interactuar con el servicio de reconocimiento facial.
+En este proyecto, desarrollamos una interfaz de reconocimiento facial que se basa en la búsqueda y recuperación eficiente de imágenes. Este sistema utiliza la librería Face_Recognition para la extracción de características faciales y algoritmos K-Nearest Neighbors (KNN) para manejar grandes volúmenes de datos de imágenes. Experimentamos con varias técnicas de indexación, incluyendo R-Trees y KD-Trees, y utilizamos PCA para reducir la dimensionalidad de los datos y mejorar el rendimiento del sistema. Finalmente, creamos una interfaz de usuario utilizando la biblioteca tkinter para interactuar con el servicio de reconocimiento facial.
 
 ## Marco Teórico
 
